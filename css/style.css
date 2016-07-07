@@ -85,7 +85,7 @@ body {
     font-weight: 800;      
 }
 
-.b-content__meta:before {
+.b-content__meta .b-text p:before {
 	content: ' ';
 	display: inline-block;
 	width: 3px;
@@ -93,16 +93,21 @@ body {
 	background: #f0efea;
 	position: absolute;
 	transform: translateX(-10px);	
+	margin: -20px 0;
 }
 
 .b-content__meta_second {	
     clear: right;
-    transform: translateY(-100%);
+    margin-top: -1px;
+}
+
+.b-content__meta_second .b-text {
+	position: absolute;
+	transform: translateY(-100%);
 }
 
 .b-text {
 	text-align: justify;
-
 }
 
 .b-text__capital:first-letter {
