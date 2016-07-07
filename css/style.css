@@ -163,6 +163,15 @@ body {
 	.b-text__capital:first-letter {
 		font-size: 8vw;
 	}
+
+	.b-content__meta_second .b-text {
+		position: relative;
+		transform: translateY(0);
+	}
+
+	.b-content__meta .b-text p:before {		
+		margin: 0;
+	}
 }
 
 @media (max-width: 320px) {	
@@ -177,7 +186,7 @@ body {
 	}
 
 	.b-content__main {
-		font-size: 8vw;
+		font-size: 6vw;
 		width: 90%;
 	    display: block;
 	    margin-bottom: 5vh; 
@@ -186,7 +195,7 @@ body {
 	}
 
 	.b-content__meta {
-		font-size: 8vw;
+		font-size: 6vw;
 		width: 80%;   
 	    float: none;    
 	    display: block;   
@@ -203,7 +212,16 @@ body {
 	}	
 
 	.b-text__capital:first-letter {
-		font-size: 8vw;
+		font-size: 16vw;
+	}
+
+	.b-content__meta_second .b-text {
+		position: relative;
+		transform: translateY(0);
+	}
+
+	.b-content__meta .b-text p:before {		
+		margin: 0;
 	}
 }
 
